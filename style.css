@@ -114,6 +114,8 @@ a{
 .projects:hover{
     transform: scale(1.1);
 }
+
+
 #projectTitle{
     font-size: 3vw;
     margin-top: 10vh;
