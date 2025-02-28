@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body id="body">
+    <div id="header" class="divs">
+        <h1>Bingo</h1>
+    </div>
+    <div id="number_chooser" class="divs">
+        <p id="velg_antall_tall">Velg hvor mange tall som skal genereres</p>
+        <div id="number_button_holder">
+            <input type="number" id="number_submit" min="6">
+            <button id="submit_button" onclick="submit_number()">Velg Antall Tall</button>
+        </div>
+    </div>
+    <div id="randomize" class="divs">
+        <button onclick="randomize()" id="randomize_button" disabled>Trekk Tilfeldig Tall</button>
+    </div>
+    <div id="number_display" class="divs">
+        <p id="dine_tall_tekst">Dine Tall</p>
+        <p id="your_numbers">
+        </p>
+    </div>
+    <div id="guesses" class="divs">
+        <div id="your_guesses_holder">
+            <input type="number" id="your_guess1" class="your_input" min="1">
+            <input type="number" id="your_guess2" class="your_input" min="1">
+            <input type="number" id="your_guess3" class="your_input" min="1">
+            <input type="number" id="your_guess4" class="your_input" min="1">
+            <input type="number" id="your_guess5" class="your_input" min="1">
+        </div>
+        <button onclick="check_cupon()" id="sjekk_kupong" disabled>Sjekk Kupong</button>
+    </div>
+    <div id="vinner_vinner" class="divs">
+        <h1 id="vinner_display"></h1>
+    </div>
+</body>
+<script src="script.js">
+    </script>
+
+</html>
