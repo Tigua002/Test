@@ -93,8 +93,13 @@ a{
     color: #DFe0e2;
     background-color: #4D9CAC;
     box-shadow: #7AE9FF 3px 3px 3px 3px;
-    padding: 2vw;
+    padding: 1vw;
     border-radius: 2vw;
+    font-size: 1.3vw;
+    transition: 100ms ease-in-out;
+}
+#indexBtn:hover{
+    transform: scale(1.1);
 }
 .typingColor{
     color: #7AE9FF;
@@ -108,11 +113,14 @@ a{
     flex-direction: column;
 }
 .projects{
-    width: 60%;
+    width: 35vw;
     transition: transform 0.3s ease;
+    height: 50vh;
+    margin-bottom: 5vh;
+    
 }
 .projects:hover{
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 
@@ -120,8 +128,16 @@ a{
     font-size: 3vw;
     margin-top: 10vh;
 }
+.projectsDiv{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .proTitle{
     text-align: center;
+    height: 5vh;
     width: 100%;
 }
 .projectInfo{
@@ -132,7 +148,8 @@ a{
 }
 .projectTekst{
     font-size: 1.3vw;
-    width: 50%;
+    width: 25vw;
+    height: 20vh;
 }
 .projectBtn{
     color: #DFe0e2;
@@ -144,7 +161,7 @@ a{
     transition: transform 0.3s ease;
 }
 .projectBtn:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .projectLine{
